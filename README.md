@@ -13,3 +13,4 @@ One problem of DSA every day starting from 15th Sept 2021.
 *  Date: 22nd Sept 2021 - [Repeated String Match](/repeated_string_match.cpp)  
 *  Date: 23rd Sept 2021 - [Count the total set bits for N natural numbers](/count_total_set_bits.cpp)  
 *  Date: 24th Sept 2021 - [First and last occurrence](/first_last_occurrence.cpp)  
+* Date: 25th Sept 2021 - [Largest subarray with sum 0](/largest_subarray_with_sum_0.cpp)
