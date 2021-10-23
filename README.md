@@ -14,3 +14,4 @@ One problem of DSA every day starting from 15th Sept 2021.
 *  Date: 23rd Sept 2021 - [Count the total set bits for N natural numbers](/count_total_set_bits.cpp)  
 *  Date: 24th Sept 2021 - [First and last occurrence](/first_last_occurrence.cpp)  
 * Date: 25th Sept 2021 - [Largest subarray with sum 0](/largest_subarray_with_sum_0.cpp)
+* Date: 21st Oct 2021 - [Print all the Duplicates in a string](/print_all_duplicates.cpp)
