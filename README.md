@@ -15,4 +15,5 @@ One problem of DSA every day starting from 15th Sept 2021.
 *  Date: 24th Sept 2021 - [First and last occurrence](/first_last_occurrence.cpp)  
 * Date: 25th Sept 2021 - [Largest subarray with sum 0](/largest_subarray_with_sum_0.cpp)
 * Date: 21st Oct 2021 - [Print all the Duplicates in a string](/print_all_duplicates.cpp)
-* Date 25th Oct 2021 - [Check whether string is rotation of other](/rotaions_string_check.cpp) -[Check whether string is valid shuffle of another string](/string_shuffle_fo_another_string.cpp)
+* Date 25th Oct 2021 - [Check whether string is rotation of other](/rotaions_string_check.cpp) 
+                    -[Check whether string is valid shuffle of another string](/string_shuffle_fo_another_string.cpp)
