@@ -1,7 +1,10 @@
 # DSA_EveryDay
 
 ## Data Structures
-1. Linked List
+1. Linked List : 
+    1. Singly Linked List:
+        1. [Insertion at Start of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_Start.cpp)
+        2. [Insertion at the ith position](./data_structures/linkedList/singlyLinkedList/insertion_At_nth_Position.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)
@@ -17,6 +20,6 @@
 12. Date: 21st Oct 2021 - [Print all the Duplicates in a string](./practice/print_all_duplicates.cpp)
 13. Date: 25th Oct 2021  
     1. -[Check whether string is rotation of other](./practice/rotaions_string_check.cpp) 
-    2. -[Check whether string is valid shuffle of another string]./practice(/string_shuffle_fo_another_string.cpp)
+    2. -[Check whether string is valid shuffle of another string](./practice/string_shuffle_fo_another_string.cpp)
 14. Date: 26 th Oct 2021 -[Count and Say](./practice/count_and_say.cpp)
 15. Date: 10 th Nov 2021 - [Palindrome Linked List](./practice/palindromeLinkedList.cpp)
