@@ -72,7 +72,7 @@ int main()
     // insert(2,1);
     // insert(3,2);
     // insert(4,1);
-    // insert(5,2);//4 2 5 3
+    // insert(5,2);//4 5 2 3
     cout << "The Linked List is: ";
     display();
     cout << endl;
