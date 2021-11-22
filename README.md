@@ -5,6 +5,7 @@
     1. Singly Linked List:
         1. [Insertion at Start of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_Start.cpp)
         2. [Insertion at the ith position](./data_structures/linkedList/singlyLinkedList/insertion_At_nth_Position.cpp)
+        3. [Insertion at the end of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_the_end.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)
@@ -23,3 +24,5 @@
     2. -[Check whether string is valid shuffle of another string](./practice/string_shuffle_fo_another_string.cpp)
 14. Date: 26 th Oct 2021 -[Count and Say](./practice/count_and_say.cpp)
 15. Date: 10 th Nov 2021 - [Palindrome Linked List](./practice/palindromeLinkedList.cpp)
+16. Date: 18th Nov 2021 - [Upper Case Lower CAse and Numeric.](./practice/upperCase_lowerCase_numeric.cpp)
+17. Date: 22nd Nov 2021 -[Pattern problems](./practice/patterns.cpp)
