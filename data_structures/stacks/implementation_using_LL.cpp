@@ -17,18 +17,12 @@ struct Node
     int data;
     Node *next;
 };
-//defining stack
-Node *Stack = NULL;
 //defining top pointing no-where
 Node *top = NULL;
 
-// void init()
-// {
-//     top = NULL;
-// }
 bool isEmpty()
 {
-    if(top == NULL)
+    if(!top)
         return true;
     else
         return false;
@@ -44,18 +38,18 @@ void push(int value)
 {
     Node *newNode = new Node;
     newNode->data = value;
-    newNode->next = Stack;
-    Stack = newNode;
+    newNode->next = top;
+    top = newNode;
     
 
     /*
          The above  5 lines can be easily converted into:
             newNode->next = NULL;
             if(isEmpty())
-                Stack = newNode;
+                top = newNode;
             
-            newNode->next = Stack;
-            Stack = newNode;
+            newNode->next = top;
+            top = newNode;
     */
    cout << "Element pushed!!! :)" << endl;
 }
@@ -78,7 +72,7 @@ void peek()
     if(isEmpty())   
         cout << "Stack is UNDERFLOW. Push some elements to peek!!! :)" << endl;
 
-    cout << "Top element is" << top->data << endl;
+    cout << "Top element is " << top->data << endl;
 }
 
 int main()
