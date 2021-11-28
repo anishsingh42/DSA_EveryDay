@@ -6,6 +6,17 @@
         1. [Insertion at Start of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_Start.cpp)
         2. [Insertion at the ith position](./data_structures/linkedList/singlyLinkedList/insertion_At_nth_Position.cpp)
         3. [Insertion at the end of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_the_end.cpp)
+        4. [Reverse a singly linked list](./data_structures/linkedList/singlyLinkedList/reverse_singly_linked_list.cpp)
+        5. [Printing a LL using recursion](./data_structures/linkedList/singlyLinkedList/display_using_recusrion.cpp)
+
+    2. Doubly Linked List
+        1. [Insertion at Start of LL](./data_structures/linkedList/doublyLinkedList/insertion_at_Start.cpp)
+        2. [Insertion at the ith position](./data_structures/linkedList/doublyLinkedList/insertion_At_nth_Position.cpp)
+        3. [Insertion at the end of LL](./data_structures/linkedList/doublyLinkedList/insertion_at_the_end.cpp)
+        4. [Printing a LL using recursion](./data_structures/linkedList/doublyLinkedList/display_using_recusrion.cpp)
+    3. Stacks
+        1. [Implementation using Array](./data_structures/stacks/implementation_using_array.cpp)
+        2. [Implementation using Linked List](./data_structures/stacks/implementation_using_LL.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)
@@ -25,4 +36,11 @@
 14. Date: 26 th Oct 2021 -[Count and Say](./practice/count_and_say.cpp)
 15. Date: 10 th Nov 2021 - [Palindrome Linked List](./practice/palindromeLinkedList.cpp)
 16. Date: 18th Nov 2021 - [Upper Case Lower CAse and Numeric.](./practice/upperCase_lowerCase_numeric.cpp)
-17. Date: 22nd Nov 2021 -[Pattern problems](./practice/patterns.cpp)
+17. Date: 22nd Nov 2021 
+    1. -[Pattern problems](./practice/patterns.cpp)
+    2. -[Subtract Product and Sum of a number](./practice/subtractProductAndSum.cpp)
+    3. -[Number of Set bits or Hamming Weights](./practice/hammingWeight.cpp)
+18. Date: 23rd Nov 2021
+    1. [Reverse an Integer](./practice/reverseInteger.cpp)
+    2. [Complement of Integer with base 10](./practice/complementOfBase10.cpp)
+    3. [Decimal to Binary](./practice/decimalToBinary.cpp)
