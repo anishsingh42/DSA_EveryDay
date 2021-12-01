@@ -63,9 +63,12 @@ void pop()
     //we need to pop the first element which entered at the end [thus following the LAST IN FIRST OUT RULE]
     Node *temp = top;
     //Now the next element in the stack needs to be the top
-    temp->next = top;
+    top = temp->next;
+
+    //free the previous connection
+    temp->next = NULL;
     //free the temp
-    delete temp;
+    free(temp);
 }
 void peek()
 {
