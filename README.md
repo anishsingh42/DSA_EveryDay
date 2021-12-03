@@ -19,6 +19,16 @@
     2. [Implementation using Linked List](./data_structures/stacks/implementation_using_LL.cpp)
     3. [Using stack to reverse string](./data_structures/stacks/reversal_of_string_using_stack.cpp)
     4. [Using stack to reverse Linked List](./data_structures/stacks/reversal_of_LL_using_stack.cpp)
+    5. [Check for balanced Parentheses](./data_structures/stacks/check_balanced_parentheses.cpp)
+    6. [PostFix expression evaluation using Stacks](./data_structures/stacks/postfix_stacks.cpp)
+
+3. Queues 
+    1. [Implementation using Linear Array](./data_structures/queues/implementation_using_array.cpp)
+    2. [Implementation using Circular Array](./data_structures/queues/implementation_using_CircularArray.cpp)
+    3. [Implementation using Linked List](./data_structures/queues/implementation_using_LL.cpp)
+
+4. Trees
+    1. [Binary Search Tree](./data_structures/trees/BST.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)

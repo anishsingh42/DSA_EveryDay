@@ -1,0 +1,2 @@
+ostfixExp += topOperator;
+                        S.pop();
