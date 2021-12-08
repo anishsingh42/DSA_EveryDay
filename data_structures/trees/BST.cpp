@@ -193,6 +193,17 @@ void postorderTraversal(BSTNode *root)
     //T.C = O(n)
 }
 
+BSTNode * findMin(BSTNode *root)
+{
+    BSTNode* current  = root;
+    if(current->left == NULL)
+        cout << "Empty Tree"<<endl;
+    while(current->left !=NULL)
+        current = current->left;
+
+    return current;
+}
+
 BSTNode* deleteNode(BSTNode * root, int value)
 {
     //while deleting a node in BST the property of BST should be reserved
@@ -240,6 +251,12 @@ BSTNode* deleteNode(BSTNode * root, int value)
             }
 
             //case 2 two children
+            BSTNode * temp = findMin(root->right);
+            //make the min value the current root value
+            root->data = temp->data;
+            //delete
+            root->right = deleteNode(root->right,temp->data);
+
         }
 
 
@@ -254,11 +271,11 @@ int main()
     // init();
     while(1)
     {
-        cout << "0.Exit" << endl;
-        cout << "1.Insert" << endl;
-        cout << "2.Delete" << endl;
-        cout << "3.Search" << endl;
-        cout << "4.MAX/MIN element in tree" << endl;
+        cout << "0. Exit" << endl;
+        cout << "1. Insert" << endl;
+        cout << "2. Delete" << endl;
+        cout << "3. Search" << endl;
+        cout << "4. MAX/MIN element in tree" << endl;
         cout << "5. Height of the tree" << endl;
         cout << "6. Level order Traversal" << endl;
         cout << "7. Depth First Traversal (Inorder)" << endl;
@@ -274,35 +291,44 @@ int main()
             case 1: cout << "Enter the value that needs to be inserted: ";
             cin >> value;
             rootptr = insert(rootptr,value);
+            cout << endl;
             break;
 
             case 2: cout << "Enter the value that needs to be deleted: ";
             cin >> value;
             deleteNode(rootptr,value);
+            cout << endl;
             break;
 
             case 3: cout << "Enter the value that needs to be searched: ";
             cin >> value;
             if(searchNode(rootptr,value)) cout << "Found the element" << endl;
             else cout << "Not found" << endl;
+            cout << endl;
             break;
 
             case 4: cout << "Max element in the tree is : "<< elementMax(rootptr) << endl;
            cout << "Min element in the tree is : "<< elementMin(rootptr) << endl;
+           cout << endl;
             break;
 
             case 5: cout << "Height of the tree is : " <<heightTree(rootptr) << endl;
+            cout << endl;
             break;
 
             case 6: BreadthFirstTraversal(rootptr);
             cout << endl;
+            cout << endl;
             break;
 
             case 7: inorderTraversal(rootptr);
+            cout << endl;
             break;
             case 8: preorderTraversal(rootptr);
+            cout << endl;
             break;
             case 9: postorderTraversal(rootptr);
+            cout << endl;
             break;
         }
     }
