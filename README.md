@@ -29,6 +29,11 @@
 
 4. Trees
     1. [Binary Search Tree](./data_structures/trees/BST.cpp)
+
+## Algorithms
+1. Search
+    1. [Linear Search](./algorithms/searching/linearSearch.cpp)
+    2. [Binary Search](./algorithms/searching/binarySearch.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)
@@ -56,3 +61,18 @@
     1. [Reverse an Integer](./practice/reverseInteger.cpp)
     2. [Complement of Integer with base 10](./practice/complementOfBase10.cpp)
     3. [Decimal to Binary](./practice/decimalToBinary.cpp)
+
+19. Date: 7th Dec 2021
+    1. [Sum of n Integers in an array](./practice/sumNInteger.cpp)
+    2. [Reverse an Array](./practice/reverseArray.cpp)
+    3. [Swap Alternatives in an array](./practice/swapAlternativeArray.cpp)
+    4. [Single Number in Array](./practice/singleNumber.cpp)
+    5. [Unique Number of Occurrences in Array](./practice/findUniqueElement.cpp)
+    6. [Find Duplicate in Array](./practice/findDuplicate.cpp)
+
+20. Date: 8th Dec 2021
+    1. [Intersection of Two Arrays](./practice/intersectionOf2Arrays.cpp)
+    2. [Pair Sum/Two Sum](./practice/pairSum.cpp)
+    3. [Sort 0s and 1s without using sorting](./practice/sort_0_1.cpp)
+    4. [Sort 0s , 1s and 2s without using sorting](./practice/sort_0_1_2.cpp)
+    5. [First and Last Occurrence of an Element in an array](./practice/firstLastOcc.cpp)
