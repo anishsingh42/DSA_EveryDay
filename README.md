@@ -76,3 +76,8 @@
     3. [Sort 0s and 1s without using sorting](./practice/sort_0_1.cpp)
     4. [Sort 0s , 1s and 2s without using sorting](./practice/sort_0_1_2.cpp)
     5. [First and Last Occurrence of an Element in an array](./practice/firstLastOcc.cpp)
+    6. [Find the Total number of Occurrence of an element](./practice/totalOcc.cpp)
+
+21. Date: 9th Dec 2021
+    1. [Peak of the Mountain](./practice/peakOfMountain.cpp)
+    2. [Pivot in a sorted array/MiddleMost index in a sorted array](./practice/middlemostIndex.cpp)
