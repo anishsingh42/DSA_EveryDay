@@ -1,6 +1,6 @@
 //Date: 8th Dec 2021
 /*
-    Given an array of integers nums sorted in non-decreasing order, find the starting and ending position of a given target value.
+    Given an array of integers nums sorted in non-decreasing order, find the total number of occurrence of an element in an array.
 
     If target is not found in the array, return [-1, -1].
 
@@ -11,14 +11,12 @@
 using namespace std;
 
 
-void firstLastOcc(vector<int> &nums, int target)
+int elementTotalOcc(vector<int> &nums, int target)
 {
     int start = 0;
     int size = nums.size();
     int end = size-1;
     int mid;
-
-    vector<int> index;
 
     int firstOcc = -1;
     int lastOcc = -1;
@@ -59,14 +57,9 @@ void firstLastOcc(vector<int> &nums, int target)
         else
             end = mid-1;
     }
+    int totalOcc = (lastOcc-firstOcc)+1;
 
-    index.push_back(firstOcc);
-    index.push_back(lastOcc);
-
-
-    for(auto it:index)
-        cout << it << " ";
-
+    return totalOcc;
 }
 
 
@@ -96,7 +89,7 @@ int main()
     cout << "Enter the key "; 
     cin >> key;
 
-    cout << "The first and last Occurrence are: "; firstLastOcc(nums , key);
+    cout << "The Total number of Occurrences are: " << elementTotalOcc(nums , key) << endl;
     return 0;
 
 }
