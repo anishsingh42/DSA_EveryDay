@@ -7,13 +7,17 @@
         2. [Polynomial Operation - Addition](./data_structures/arrays/polynomials/polyAdd.cpp)
     2. Matrix/2-D Matrix
         1. [Matrix Addition and Multiplication](./data_structures/arrays/matrix/matrixAddition_Multiplication.cpp)
+        2. [Sparse Matrix Definition](./data_structures/arrays/matrix/spareMatrixDefinition.cpp)
 2. Linked List : 
     1. Singly Linked List:
         1. [Insertion at Start of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_Start.cpp)
-        2. [Insertion at the ith position](./data_structures/linkedList/singlyLinkedList/insertion_At_nth_Position.cpp)
-        3. [Insertion at the end of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_the_end.cpp)
-        4. [Reverse a singly linked list](./data_structures/linkedList/singlyLinkedList/reverse_singly_linked_list.cpp)
-        5. [Printing a LL using recursion](./data_structures/linkedList/singlyLinkedList/display_using_recusrion.cpp)
+        2. [Deletion at Start of LL](./data_structures/linkedList/singlyLinkedList/deletion_at_Start.cpp)
+        3. [Insertion at the ith position](./data_structures/linkedList/singlyLinkedList/insertion_At_nth_Position.cpp)
+        4. [Deletion at the ith position](./data_structures/linkedList/singlyLinkedList/deletion_At_nth_Position.cpp)
+        5. [Insertion at the end of LL](./data_structures/linkedList/singlyLinkedList/insertion_at_the_end.cpp)
+        6. [Deletion at the end of LL](./data_structures/linkedList/singlyLinkedList/deletion_at_the_end.cpp)
+        7. [Reverse a singly linked list](./data_structures/linkedList/singlyLinkedList/reverse_singly_linked_list.cpp)
+        8. [Printing a LL using recursion](./data_structures/linkedList/singlyLinkedList/display_using_recusrion.cpp)
 
     2. Doubly Linked List
         1. [Insertion at Start of LL](./data_structures/linkedList/doublyLinkedList/insertion_at_Start.cpp)
@@ -40,6 +44,12 @@
 1. Search
     1. [Linear Search](./algorithms/searching/linearSearch.cpp)
     2. [Binary Search](./algorithms/searching/binarySearch.cpp)
+2. Sort
+    1. [Selection Sort](./algorithms/sorting/selectionSort.cpp)
+    2. [Bubble Sort](./algorithms/sorting/bubbleSort.cpp)
+    3. [Insertion Sort](./algorithms/sorting/insertionSort.cpp)
+    4. [Merge Sort](./algorithms/sorting/mergeSort.cpp)
+    5. [Quick Sort](./algorithms/sorting/quickSort.cpp)
 
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
