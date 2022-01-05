@@ -1,6 +1,47 @@
 #include<bits/stdc++.h>
 using namespace std;
+/*
+    A) Tree Basic Concepts
 
+        1. Node : Finite set of elements 
+        2. Branch : Finite set of directed lines
+        3. Parent : The node from which sub-nodes are derived.
+        4. Child: The subNode derived from parent.
+        5. Siblings: The child having same parent.
+        5. Cousins: Same level but different parents.
+        6. Leaves: The node with no child is leave, also genrally the last node.
+        7. Internal Node: A node acting as parent as well as child
+        8. Root: The parent element is called the root element.
+
+    B) Binary tree: 
+        1. at-most 2 children ranging from 0,1 or 2 subtrees. These subtrees are designated as leftSubtree of rightSubtree.
+        2. Height of a binary tree: Is the longest downward path from the node to the leave node.
+        Height of the empty tree = -1
+        Height of the tree with only one element = 0
+        Height of the root node = Height of the tree
+
+        3. Depth of a binary tree: Is the longest upward path taken from the leave to the node.
+        Depth of a empty tree = -1
+        Depth of the tree with only one element = 0
+        Depth of the tree - Depth of the root node
+
+        Note: Height of the tree = Depth of the tee = Height of the root Node = Depth of the root node.
+
+        4. Maximum Height of the tree with N nodes is => Hmax = N
+           Minimum height of the tree with N nodes is => Hmin = (logN) + 1  [Base 2 log]
+           If height of the tree is known
+                Nmax = H
+                Nmin = 2^H - 1
+
+    C) Full or Strict Binary Tree
+        1. Either 0 or 2 children.
+    D) Almost Complete Binary Tree
+        1. Every node will have 0,1 or 2 childs but filling of childs will perfrom from left to right, keeping in mind that the current level is already filled.
+    E) Complete/Perfect Binary Tree
+        1. Will have exactly 2 child in every node except the leaf node.
+*/
+
+//Linked List Implementation
 struct BSTNode
 {
     BSTNode * left;
@@ -37,7 +78,6 @@ BSTNode* insert(BSTNode *rootptr,int value)
     else 
         rootptr->right = insert(rootptr->right,value);
 
-    
     return rootptr;
 
 }
@@ -203,7 +243,50 @@ BSTNode * findMin(BSTNode *root)
 
     return current;
 }
+//search function to search a key element
+int searchKey(int a[], int key, int n)
+{
+    for(int i=0;i<n;i++)
+        if(a[i] == key)
+            return i;
+    return -1;
+}
+//Array implementation of postorder from given inorder preorder
+void  printPostOrder(int in[], int pre[], int n)
+{
+    //the first element in preorder is the root element
+    //locate the root index in the inorder array , i.e in[]
+    int root = searchKey(in,pre[0],n);
 
+    //Now traverse the left part of the inorder
+    if(root!=0)
+        printPostOrder(in,pre+1,root);
+    //Now traverse the right part of the  inorder
+    if(root!=(n-1))
+        printPostOrder(in+root+1, pre+root+1, n-root-1);
+
+    //print the root
+    cout << pre[0] << " "; 
+}
+
+void  printPreOrder(int in[], int post[], int n)
+{
+    //the last element in postorder is the root element
+    //locate the root index in the inorder array , i.e in[]
+    int root = searchKey(in,post[n-1],n);
+
+    //print the root
+    cout << post[n-1] << " "; 
+
+    //Now traverse the left part of the inorder
+    if(root!=0)
+        printPreOrder(in,post+1,root);
+    //Now traverse the right part of the  inorder
+    if(root!=(n-1))
+        printPreOrder(in+root+1, post+root+1, n-root-1);
+
+    
+}
 BSTNode* deleteNode(BSTNode * root, int value)
 {
     //while deleting a node in BST the property of BST should be reserved
@@ -281,6 +364,8 @@ int main()
         cout << "7. Depth First Traversal (Inorder)" << endl;
         cout << "8. Depth First Traversal (Preorder)" << endl;
         cout << "9. Depth First Traversal (Postorder)" << endl;
+        cout << "10. PostOrder from given Inorder and PreOrder. " << endl;
+        cout << "11. PreOrder from given Inorder and PostOrder. "<<endl;
 
         cout << "Enter you Choice: ";
         cin >> choice;
@@ -324,12 +409,42 @@ int main()
             case 7: inorderTraversal(rootptr);
             cout << endl;
             break;
+
             case 8: preorderTraversal(rootptr);
             cout << endl;
             break;
+
             case 9: postorderTraversal(rootptr);
             cout << endl;
             break;
+
+            case 10: int s; cout << "Size of Tree "; cin >> s; int inP[s]; int preP[s];
+            cout << "Inorder : "<<endl;
+            for(int i=0;i<s;i++)
+            {
+                cin >> inP[i];
+            }
+            cout << "Preorder : "<<endl;
+            for(int i=0;i<s;i++)
+            {
+                cin >> preP[i];
+            }
+            cout << endl;
+            printPostOrder(inP,preP,s);
+            cout << endl;
+            break;
+            
+            // case 11: int s1; cout << "Enter the size "; cin >> s1; int inp[s1]; int postp[s1];
+            // cout << "Inorder "<<endl;
+            // for(int j=0;j<s1;j++)
+            //     cin >> inp[j];
+            // cout << "Post order" << endl;
+            // for(int j=0;j<s1;j++)
+            //     cin >> postp[j]; 
+            // cout << endl;
+            // printPreOrder(inp,postp,s1);
+            // cout<<endl;
+            // break;
         }
     }
     return 0;
