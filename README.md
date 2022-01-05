@@ -108,3 +108,16 @@
     3. [Checkmate](./practice/checkMate.cpp)
 24. Date: 15th Dec 2021
     1. [Square Root of a number using Binary Search](./practice/sqrtUsingBinearSearch.cpp)
+25. Date: 1st Jan 2022 
+    1. [Book Allocation Problem(V.Imp)](./practice/bookAllocation.cpp)
+    2. [Painter's partition Problem(V.Imp)](./practice/painterPartition.cpp)
+    3. [Aggressive Cow's (V.Imp)](./practice/aggressiveCows.cpp)
+    4. [Merge two Sorted array](./practice/mergeTwoSortedArray.cpp)
+26. Date: 3rd Jan 2022
+    1. [Move Zero's](./practice/moveZeros.cpp)
+    2. [Rotated Array](./practice/rotatearray.cpp)
+27. Date: 5th Jan 2022
+    1. [Check if array sorted and rotated](./practice/arraySortedRotated.cpp)
+    2. [Add 2 Array](./practice/add2array.cpp)
+    3. [Valid Palindrome](./practice/validPalindrome.cpp)
+    4. [Reverse Words in a String 2](./practice/reverseWordsInString.cpp)
