@@ -121,3 +121,10 @@
     2. [Add 2 Array](./practice/add2array.cpp)
     3. [Valid Palindrome](./practice/validPalindrome.cpp)
     4. [Reverse Words in a String 2](./practice/reverseWordsInString.cpp)
+    5. [Maximum and Minimum in an Array](./practice/min_max_array.cpp)
+28. Date: 6th Jan 2022
+    1. [Maximum Occurring character in a string](./practice/maxOccCharacterInString.cpp)
+    2. [Space in string turned into @40](./practice/replacingSpaces.cpp)
+    3. [Remove all occurrence of substring from string](./practice/remoceOccurrenceSubtring.cpp)
+29. Date: 7th Jan 2022
+    1. [Covid Spread](./practice/covidSpread.cpp)
