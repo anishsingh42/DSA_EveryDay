@@ -128,3 +128,9 @@
     3. [Remove all occurrence of substring from string](./practice/remoceOccurrenceSubtring.cpp)
 29. Date: 7th Jan 2022
     1. [Covid Spread](./practice/covidSpread.cpp)
+    2. [Prime in a Binary String](./practice/primeInBinaryString.cpp)
+30. Date: 8th Jan 2022
+    1. [Spiral Print](./practice/spiralPrint.cpp)
+    2. [Rotate Matrix by 90 degree ClockWise](./practice/rotateMatrixClockWise.cpp)
+    3. [Search a 2D Matrix using Binary Search-1](./practice/binarySearchMatrix.cpp)
+    4. [Search a 2D Matrix using Search-2](./practice/searchMatrix2.cpp)
