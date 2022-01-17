@@ -141,3 +141,8 @@
     4. [Search a 2D Matrix using Search-2](./practice/searchMatrix2.cpp)
 31. Date: 17th Jan 2022
     1. [Climb the stairs (Recursive Solution)](./practice/climbStairsRecursive.cpp)
+    2. [Say Count](./practice/sayCount.cpp)
+    3. [Is Sorted Using Recursive Method](./practice/isSortedRecursive.cpp)
+    4. [Sum of array elements using Recursive Method](./practice/sumofArrayRecursive.cpp)
+    5. [Linear Search Recursive Method](./linearSearchRecursive.cpp)
+    6. [Bineary Search Recursive Method](./practice/binearySearchRecursive.cpp)
