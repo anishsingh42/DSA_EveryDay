@@ -50,7 +50,12 @@
     3. [Insertion Sort](./algorithms/sorting/insertionSort.cpp)
     4. [Merge Sort](./algorithms/sorting/mergeSort.cpp)
     5. [Quick Sort](./algorithms/sorting/quickSort.cpp)
-
+3. Sieve Algorithms
+    1. [Sieve Of Eratosthenes](./algorithms/Sieve_Algorithms/seiveOfEratosthenes.cpp)
+    2. [Segmented Sieve](./algorithms/Sieve_Algorithms/segmentedSieve.cpp)
+4. GCD Rules & Algorithms and Modulo Mathematics 
+    1. [Euclid's Algorithm](./algorithms/gcdAlgo/euclidsAlgorithm.cpp)
+    2. [Fast Exponentiation or Modular Exponentiation](./algorithms/gcdAlgo/fastExponentiation.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)
@@ -134,3 +139,5 @@
     2. [Rotate Matrix by 90 degree ClockWise](./practice/rotateMatrixClockWise.cpp)
     3. [Search a 2D Matrix using Binary Search-1](./practice/binarySearchMatrix.cpp)
     4. [Search a 2D Matrix using Search-2](./practice/searchMatrix2.cpp)
+31. Date: 17th Jan 2022
+    1. [Climb the stairs (Recursive Solution)](./practice/climbStairsRecursive.cpp)
