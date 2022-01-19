@@ -9,7 +9,7 @@ bool binearySearch(int arr[], int start, int end, int key)
         return false;
     if(arr[mid] == key)
         return true;
-    
+    //recursive call
     if(arr[mid] > key)
         return binearySearch(arr,start,mid-1,key);
     else
