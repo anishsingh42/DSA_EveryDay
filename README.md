@@ -146,3 +146,7 @@
     4. [Sum of array elements using Recursive Method](./practice/sumofArrayRecursive.cpp)
     5. [Linear Search Recursive Method](./linearSearchRecursive.cpp)
     6. [Bineary Search Recursive Method](./practice/binearySearchRecursive.cpp)
+32. Date: 18th Jan 2022
+    1. [First and Last Occurrence Recursive Method](./practice/firstLastOccRecursive.cpp)
+    2. [Total Number of Occurrence Recusive Method](./practice/totalOccRecursive.cpp)
+    3. [Peak of Mountain Recursive Method](./practice/peakMountainRecursive.cpp)
