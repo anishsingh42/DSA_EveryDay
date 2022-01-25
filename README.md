@@ -144,9 +144,14 @@
     2. [Say Count](./practice/sayCount.cpp)
     3. [Is Sorted Using Recursive Method](./practice/isSortedRecursive.cpp)
     4. [Sum of array elements using Recursive Method](./practice/sumofArrayRecursive.cpp)
-    5. [Linear Search Recursive Method](./linearSearchRecursive.cpp)
+    5. [Linear Search Recursive Method](./practice/linearSearchRecursive.cpp)
     6. [Bineary Search Recursive Method](./practice/binearySearchRecursive.cpp)
 32. Date: 18th Jan 2022
     1. [First and Last Occurrence Recursive Method](./practice/firstLastOccRecursive.cpp)
     2. [Total Number of Occurrence Recusive Method](./practice/totalOccRecursive.cpp)
     3. [Peak of Mountain Recursive Method](./practice/peakMountainRecursive.cpp)
+    4. [Reverse String Using Recursive Method](./practice/reverseStringRecursive.cpp)
+    5. ['a' to the power 'b' recursive Method](./practice/powerProblemRecursive.cpp)
+33. Date: 22nd Jan 2022
+    1. [Merge Sort](./practice/mergeSort.cpp)
+    2. [Quick Sort](./practice/quickSort.cpp)
