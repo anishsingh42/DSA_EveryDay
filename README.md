@@ -155,3 +155,6 @@
 33. Date: 22nd Jan 2022
     1. [Merge Sort](./practice/mergeSort.cpp)
     2. [Quick Sort](./practice/quickSort.cpp)
+34. Date: 26th Jan 2022
+    1. [Subsets](./practice/subsets.cpp)
+    2. [Phone Number String Problem](./practice/phoneNumberStringProblem.cpp)
