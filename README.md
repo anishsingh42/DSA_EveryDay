@@ -158,3 +158,7 @@
 34. Date: 26th Jan 2022
     1. [Subsets](./practice/subsets.cpp)
     2. [Phone Number String Problem](./practice/phoneNumberStringProblem.cpp)
+35. Date: 28th Jan 2022
+    1. [Min Max Swap](./practice/minMaxSwap.cpp)
+    2. [Merge two sorted array with extra space](./practice/mergeTwoSortedArrayWithExtraSpace.cpp)
+    3. [Merge two sorted array without extra space](./practice/mergeTwoSortedArrayWithOutExtraSpace.cpp)
