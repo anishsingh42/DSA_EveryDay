@@ -56,6 +56,8 @@
 4. GCD Rules & Algorithms and Modulo Mathematics 
     1. [Euclid's Algorithm](./algorithms/gcdAlgo/euclidsAlgorithm.cpp)
     2. [Fast Exponentiation or Modular Exponentiation](./algorithms/gcdAlgo/fastExponentiation.cpp)
+5. Basic Algorithms
+    1. [Kadane's Algorithm](./algorithms/basicAlgo/kadanesAlgo.cpp)
 ## Questions 
 1.  Date: 15th Sept 2021 - [Sort array of 0's , 1's and 2's](./practice/sort_array_of_0_2_1.cpp)
 2.  Date: 16th Sept 2021 - [N meeting from one room](./practice/n_meeting_from_one_room.cpp)
@@ -158,3 +160,7 @@
 34. Date: 26th Jan 2022
     1. [Subsets](./practice/subsets.cpp)
     2. [Phone Number String Problem](./practice/phoneNumberStringProblem.cpp)
+35. Date: 28th Jan 2022
+    1. [Min Max Swap](./practice/minMaxSwap.cpp)
+    2. [Merge two sorted array with extra space](./practice/mergeTwoSortedArrayWithExtraSpace.cpp)
+    3. [Merge two sorted array without extra space](./practice/mergeTwoSortedArrayWithOutExtraSpace.cpp)
