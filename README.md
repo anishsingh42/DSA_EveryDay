@@ -164,3 +164,8 @@
     1. [Min Max Swap](./practice/minMaxSwap.cpp)
     2. [Merge two sorted array with extra space](./practice/mergeTwoSortedArrayWithExtraSpace.cpp)
     3. [Merge two sorted array without extra space](./practice/mergeTwoSortedArrayWithOutExtraSpace.cpp)
+36. Date: 29th Jan 2022
+    1. [Permutaions](./practice/permutaionsStrings.cpp)
+37. Date: 30th Jan 2022
+    1. [ABC](./practice/abc.cpp)
+   
