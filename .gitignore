@@ -2,10 +2,12 @@
 *.log
 .vscode/
 .vscode/settings.json
-
+.cph/
 data_structures/arrays/polynomials/tempCodeRunnerFile.cpp
 practice/tempCodeRunnerFile.cpp
 data_structures/linkedList/singlyLinkedList/tempCodeRunnerFile.cpp
 450_Questions/~$FINAL450.xlsx
 450_Questions/.vscode/settings.json
 450_Questions/~$450Question.xlsx
+practice/.cph/.countInversion.cpp_ff679e81d6fee1c6f10015f5dcf27fd0.prob
+Codeforces/~$CP_SHEET.xlsx

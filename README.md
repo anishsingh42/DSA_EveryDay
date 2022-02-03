@@ -168,4 +168,6 @@
     1. [Permutaions](./practice/permutaionsStrings.cpp)
 37. Date: 30th Jan 2022
     1. [ABC](./practice/abc.cpp)
-   
+38. Date: 2nd Feb 2022
+    1. [Next Permutation](./practice/nextPermuation.cpp)
+    2. [Count Inversion](./practice/countInversion.cpp)
