@@ -24,6 +24,8 @@
         2. [Insertion at the ith position](./data_structures/linkedList/doublyLinkedList/insertion_At_nth_Position.cpp)
         3. [Insertion at the end of LL](./data_structures/linkedList/doublyLinkedList/insertion_at_the_end.cpp)
         4. [Printing a LL using recursion](./data_structures/linkedList/doublyLinkedList/display_using_recusrion.cpp)
+    3. LinkedList Using Classes
+        1. [Single Linked List](./data_structures/linkedList/LLUsingClass/singleLL/singleLL.cpp)
 3. Stacks
     1. [Implementation using Array](./data_structures/stacks/implementation_using_array.cpp)
     2. [Implementation using Linked List](./data_structures/stacks/implementation_using_LL.cpp)
