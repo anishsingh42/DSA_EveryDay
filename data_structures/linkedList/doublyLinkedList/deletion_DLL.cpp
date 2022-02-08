@@ -43,7 +43,43 @@ void append(int value)
     //make the tail pointer ptr as it is the last element
     tail = ptr;
 }
-
+void deleteNode(int pos, int n)
+{
+    Node *prevNode, *deletingNode;
+    if(pos<=0 && pos>n)
+        return;
+    else if(!head)
+    {
+        cout << "Empty DLL";
+        return;
+    }
+    //removing from the start
+    else if(pos==1)
+    {
+        deletingNode = head;
+        deletingNode->next->prev = NULL;
+        head = deletingNode->next;
+        delete(deletingNode);
+    }
+    //removing from end
+    else if(pos==n)
+    {
+        deletingNode = tail;
+        tail = deletingNode->prev;
+        deletingNode->prev->next = NULL;
+        delete(deletingNode);
+    }
+    else{
+        prevNode = head;
+        for(int i=1;i<pos-1;i++){
+            prevNode = prevNode->next;
+        }
+        deletingNode = prevNode->next;
+        prevNode->next = deletingNode->next;
+        deletingNode->next->prev = prevNode;
+        delete(deletingNode);
+    }
+}
 //print the doubly linked list in forward direction
 void display()
 {
@@ -85,6 +121,17 @@ int main()
     display();
     cout << endl;
 
+    cout << "The Linked List is in reverse display: ";
+    reverseDisplay();
+    cout << endl;
+    int pos;
+    cout << "Delete Pos: ";
+    cin >> pos;
+    deleteNode(pos,n);
+
+    cout << "The Linked List is in forward display: ";
+    display();
+    cout << endl;
     cout << "The Linked List is in reverse display: ";
     reverseDisplay();
     cout << endl;

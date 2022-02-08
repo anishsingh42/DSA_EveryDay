@@ -20,7 +20,7 @@ void push(int value)
     ptr->next = NULL;
     ptr->prev = NULL;
     //check whether intially the LL is empty or not
-    //if yes then ..
+    //if yes then ...
     if(head==NULL)
     {
         head = ptr;
@@ -31,6 +31,7 @@ void push(int value)
     head->prev = ptr;
     ptr->next = head;
     head = ptr;
+    return;
 }
 
 //print the doubly linked list in forward direction 

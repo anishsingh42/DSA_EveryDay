@@ -35,7 +35,7 @@ void insert(int value, int pos)
     else{
         Node *prevNode = head;
         //prevNode will store the address of the one node before were the currNode needs to be inserted
-        for(int i=0;i<pos-2;i++)
+        for(int i=1;i<pos-1;i++)
         {
             prevNode=prevNode->next;
         }
