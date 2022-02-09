@@ -26,6 +26,7 @@
         4. [Printing a LL using recursion](./data_structures/linkedList/doublyLinkedList/display_using_recusrion.cpp)
     3. Circular Linked List
         1. [Insertion in Circular Single LL](./data_structures/linkedList/circularLL/singleCircularLL/insertionCircularLL.cpp)
+        2. [Deletion in Circular Single LL](./data_structures/linkedList/circularLL/singleCircularLL/deletionCircularL.cpp)
     4. Linked List Using Classes
         1. [Single Linked List](./data_structures/linkedList/LLUsingClass/singleLL/singleLL.cpp)
 3. Stacks
@@ -175,3 +176,5 @@
 38. Date: 2nd Feb 2022
     1. [Next Permutation](./practice/nextPermuation.cpp)
     2. [Count Inversion](./practice/countInversion.cpp)
+39. Date: 9th Feb 2022
+    1. [Middle of LL](./practice/middleOfLL.cpp)
