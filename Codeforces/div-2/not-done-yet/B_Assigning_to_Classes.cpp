@@ -1,11 +1,10 @@
 #include<bits/stdc++.h>
 using namespace std;
+#define ll long long int
 void solve(){
-    string str;
-    cin >> str;
-    int cnt=0;
-    
-    
+    int n;
+    cin >> n;
+    ll skills[2*n];
 }
 int main()
 {
