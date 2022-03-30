@@ -6,17 +6,20 @@ Sort 0s and 1s without using sort function
 #include<bits/stdc++.h>
 using namespace std;
 
-void sort01(int arr[], int n)
+void sort01(int a[], int n)
 {
-    int i=0; int j=n-1;
-
-    while(arr[i] == 0) i++;
-    while(arr[j] == 1) j--;
-    while((i<j) && (arr[i]!=0) && (arr[j]!=1))
-    {
-        swap(arr[i],arr[j]);
-        i++;j--;
-    }
+    int i=0;
+        int j=n-1;
+        while(i<=j)
+        {
+            if(a[i]==0)
+                i++;
+            else if(a[j]==1)
+                j--;
+            else
+                swap(a[i],a[j]);
+        }
+    
 }
 
 
