@@ -178,3 +178,21 @@
     2. [Count Inversion](./practice/countInversion.cpp)
 39. Date: 9th Feb 2022
     1. [Middle of LL](./practice/middleOfLL.cpp)
+    2. [Reverse LL Nodes in Grps of K](./practice/reverseNodeKGrps.cpp)
+40. Date: 16 Feb 2022
+    1. [Linked List Cycle](./practice/linkedListCycle.cpp)
+    2. [Detect and Remove loop from LL](./practice//detectRemoveLoopLL.cpp)
+    3. [Remove Duplicates from sorted LL](./practice/removeDuplicatefromSortedLL.cpp)
+    4. [Remove Duplicates from unsorted LL](./practice/removeDuplicatefromUnSortedLL.cpp)
+41. Date: 17 Feb 2022
+    1. [Sort 0,1 and 2 in LL](./practice/sort012LL.cpp)
+    2. [Check whether a LL is palindrome or not](./practice/isLLpalindrome.cpp)
+42: Date: 29th March 2022
+    1. [Implement two Stacks using a array](./practice/implementtwostack.cpp)
+    2. [Reverse a String using a stack](./practice/reverseStringUsingStack.cpp)
+    3. [Valid Parentheses](./practice/validParantheses.cpp)
+    4. [Delete Middle Most Element in Stack](./practice/deletemiddlemostelementinstack.cpp)
+    5. [Reverse a Stack using recursion](./practice//reversestackusingrecursion.cpp)
+    6. [Sort a stack]()
+    7. [Rebundant Brackets](./practice/rebundantBrackets.cpp)
+    8. [Minimum cost for bracket reversal](./practice/minumumcostforbracketreversal.cpp)
