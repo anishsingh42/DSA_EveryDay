@@ -187,7 +187,7 @@
 41. Date: 17 Feb 2022
     1. [Sort 0,1 and 2 in LL](./practice/sort012LL.cpp)
     2. [Check whether a LL is palindrome or not](./practice/isLLpalindrome.cpp)
-42: Date: 29th March 2022
+42. Date: 29th March 2022
     1. [Implement two Stacks using a array](./practice/implementtwostack.cpp)
     2. [Reverse a String using a stack](./practice/reverseStringUsingStack.cpp)
     3. [Valid Parentheses](./practice/validParantheses.cpp)
