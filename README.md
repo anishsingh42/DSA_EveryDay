@@ -196,3 +196,11 @@
     6. [Sort a stack]()
     7. [Rebundant Brackets](./practice/rebundantBrackets.cpp)
     8. [Minimum cost for bracket reversal](./practice/minumumcostforbracketreversal.cpp)
+43. Date: 1st April 2022
+    1. [Next Smaller Element](./practice/nextsmallerelementstack.cpp)
+    2. [Largest Area of Rectangle in Histogram](./practice/largestrectanglehistogram.cpp)
+    3. [Celebrity Problem](./practice/celebrityproblem.cpp)
+    4. [Max Rectangle in binary matrix will all 1's](./practice/maxrectangleinbinarymatrix.cpp)
+44. Date: 2nd April 2022
+    1. [N stacks in an array](./practice/nstacksinanarray.cpp)
+    2. [Get Minimum in constant space and time complexity](./practice/getminmuminstack.cpp)
