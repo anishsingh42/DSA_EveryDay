@@ -204,3 +204,8 @@
 44. Date: 2nd April 2022
     1. [N stacks in an array](./practice/nstacksinanarray.cpp)
     2. [Get Minimum in constant space and time complexity](./practice/getminmuminstack.cpp)
+45. Date: 7th April 2022
+    1. [Reversal of Queue](./practice/reverseQueue.cpp)
+    2. [Find th first negative integer in the window](./practice/firstnegativeintegerinwindow.cpp)
+    3. [Reverse first K elements in queue](./practice/reversefirstkelementsinqueue.cpp)
+    4. [First non-repeating character in a stream](./practice/firstnonrepeatingchar.cpp)
