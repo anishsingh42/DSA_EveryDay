@@ -209,3 +209,8 @@
     2. [Find th first negative integer in the window](./practice/firstnegativeintegerinwindow.cpp)
     3. [Reverse first K elements in queue](./practice/reversefirstkelementsinqueue.cpp)
     4. [First non-repeating character in a stream](./practice/firstnonrepeatingchar.cpp)
+46. Date: 13th April 2022
+    1. [Circular Tour](./practice/circularTour.cpp)
+47. Date: 14th April 2022
+    1. [Interleave the first half of the queue with second half](./practice/interleavefirsttosecond.cpp)
+    2. [K Queue in a single array](./practice/kqueueinsinglearray.cpp)
