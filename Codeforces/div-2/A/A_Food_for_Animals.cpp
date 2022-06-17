@@ -30,12 +30,12 @@ void solve(){
         cout << "YES" << '\n';
     }
 }
-int main()
+void main()
 {
     int tt;
     cin >> tt;
     while(tt--){
         solve();
     }
-    return 0;
+    // return;
 }
